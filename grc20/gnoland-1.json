@@ -135,5 +135,35 @@
         }
       }
     }
+  },
+  {
+  "name": "Perun",
+  "token_path": "gno.land/r/demo/defi/grc20factory.PERUN",
+  "pkg_path": "gno.land/r/demo/defi/grc20factory",
+  "symbol": "PERUN",
+  "decimals": 6,
+  "chain_id": "gnoland-1",
+  "description": "PERUN is a GRC20 token on Gnoland.",
+  "website_url": "",
+  "twitter_url": "",
+  "discord_url": "",
+  "docs_url": "",
+  "image": "/grc20/images/perun.png",
+  "routes": {
+    "funcs": {
+      "transfer": {
+        "name": "Transfer",
+        "args": ["PERUN", "$to", "$amount"]
+      },
+      "approve": {
+        "name": "Approve",
+        "args": ["PERUN", "$spender", "$amount"]
+      },
+      "transfer_from": {
+        "name": "TransferFrom",
+        "args": ["PERUN", "$from", "$to", "$amount"]
+      }
+    }
   }
+}
 ]
