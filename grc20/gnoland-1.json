@@ -148,7 +148,7 @@
   "twitter_url": "",
   "discord_url": "",
   "docs_url": "",
-  "image": "/grc20/images/perun.png",
+  "image": "/grc20/images/perun.svg",
   "routes": {
     "funcs": {
       "transfer": {
